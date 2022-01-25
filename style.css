@@ -1,0 +1,39 @@
+body {
+    text-align: center;
+    background-color: limegreen;
+    font-family: fantasy;
+    color: black;
+}
+
+h1  {
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+p {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+#timer, #score {
+    margin-left: 50%;
+    font-weight: bolder;
+}
+
+#objectToBeDrawn {
+    color: blue;
+}
+
+canvas {
+    border: 5px solid white;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-top: 150px;
+}
+
+@keyframes example {
+    from {box-shadow: 5px 5px 38px black;}
+    to {box-shadow: 5px 5px 38px white;}
+}
